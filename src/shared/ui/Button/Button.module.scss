@@ -1,0 +1,33 @@
+.Button_1 {
+	width: 50px;
+	height: 40px;
+	border-radius: 50%;
+	border: 2px solid rgb(44, 44, 44);
+	background-color: orangered;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+
+	&:active {
+		filter: brightness(0.8);
+	}
+}
+
+.Button_2 {
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	border: 2px solid rgb(44, 44, 44);
+	background-color: rgb(112, 112, 112);
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+
+	&:active {
+		filter: brightness(0.8);
+	}
+}
