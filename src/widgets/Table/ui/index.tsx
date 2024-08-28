@@ -4,10 +4,10 @@ import React from 'react'
 export const Table = () => {
 	return (
 		<div>
-			<Row mark={1} LED_1={true} LED_2={false} info='ПОЖАР' />
-			<Row mark={2} LED_1={false} LED_2={true} info='ТРЕВОГА' />
+			<Row mark={1} LED_1={false} LED_2={false} info='ПОЖАР' />
+			<Row mark={2} LED_1={false} LED_2={false} info='ТРЕВОГА' />
 			<Row mark={3} LED_1={false} LED_2={false} info='НЕИСПР.' />
-			<Row mark={4} LED_1={true} LED_2={false} info='ОТКЛ.' />
+			<Row mark={4} LED_1={false} LED_2={false} info='ОТКЛ.' />
 			<EmptyRow />
 			<EmptyRow />
 			<EmptyRow />
